@@ -8,6 +8,6 @@ import java.util.Map;
 public class AuthenticationController {
     @PostMapping("/auth/register")
     public Map<String,Object> registration(@RequestBody Map<String,Object> body){
-        return body;
+
     }
 }
