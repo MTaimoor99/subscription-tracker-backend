@@ -16,7 +16,8 @@ public class AuthenticationService {
         emailService = injectedEmailService;
     }
 
-    public Map<String,Object> sendRegistrationEmailToUser(){
-        return new HashMap<String,Object>();
+    public Map<String,Object> sendRegistrationEmailToUser(Map<String,Object> body){
+        Map<String,Object> response = new HashMap<String,Object>();
+        return response;
     }
 }
